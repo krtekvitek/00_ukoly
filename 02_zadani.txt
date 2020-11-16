@@ -1,6 +1,8 @@
 Jedine, co je potreba upravit, tak je promenna let format = '' . 
-Je treba do ni vlozit hodnoty z dalsich promennych, ktere uz jsou definovane, tak aby format vracel  vysledek ve formatu 2020-11-03_10-20-55 .pak staci pustit jen npm test . 
-Pokud nic neupravis, tak se vytvori soubor se jmenem screenshot-github.png . Jakmile upravis promennou format , tak se vytvori soubor 2020-11-03_10-20-55screenshot-github.png . 
+Je treba do ni vlozit hodnoty z dalsich promennych, ktere uz jsou definovane, 
+tak aby format vracel  vysledek ve formatu 2020-11-03_10-20-55 .pak staci pustit jen npm test . 
+Pokud nic neupravis, tak se vytvori soubor se jmenem screenshot-github.png . 
+Jakmile upravis promennou format , tak se vytvori soubor 2020-11-03_10-20-55screenshot-github.png . 
 A to je cele.Takze JEDINY radek, ktery je potreba upravit je TENTO
 https://github.com/czechitas-da2020/01_automation/blob/02_selenium_ukol/utils.js#L14
 
