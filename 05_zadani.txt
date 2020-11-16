@@ -1,0 +1,15 @@
+ÚKOL:Věřím, že poslední úkol si užijete :))) Připravil jsem pro Vás speciální stránečku! 
+ÚKOL je jasný - Kliknout na tlačítko právě když je na něm vyobrazena lištička :fox_face:  :slightly_smiling_face: Easy peasy!Jak na to:
+Jdi na stranku https://automation.cervik.repl.co/findfox.html
+DULEZITE: Pockej, az uvidis :fox_face: v buttonu. Podivej se na DOKUMENTACI
+https://webdriver.io/docs/api/element/waitForDisplayed.html
+:warning: Doporucuju zvysit timeout a nastavit interval na 30 (jak casto se bude WDIO ptat, jestli je dany element pritomny)
+Klikni na tlacitko s :fox_face:
+Udelej screenshot a pojmenuj ho listicka.png
+Nastav si dostatecny browser.pause(). Opravdu :slightly_smiling_face: Treba 20 sekund.
+Relaxuj :))
+ 
+Zadání je i v repozitáři 04_pageObjects v souboru homework.js
+ 
+Odevzdej kód a screenshot se zakliknutou lištičkou do moje.czechitas. :)
+Deadline neděle 22.11 v 22:11

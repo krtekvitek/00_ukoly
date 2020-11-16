@@ -1,0 +1,20 @@
+Jedine, co je potreba upravit, tak je promenna let format = '' . 
+Je treba do ni vlozit hodnoty z dalsich promennych, ktere uz jsou definovane, tak aby format vracel  vysledek ve formatu 2020-11-03_10-20-55 .pak staci pustit jen npm test . 
+Pokud nic neupravis, tak se vytvori soubor se jmenem screenshot-github.png . Jakmile upravis promennou format , tak se vytvori soubor 2020-11-03_10-20-55screenshot-github.png . 
+A to je cele.Takze JEDINY radek, ktery je potreba upravit je TENTO
+https://github.com/czechitas-da2020/01_automation/blob/02_selenium_ukol/utils.js#L14
+
+Postup:
+Vytvor si
+soubor 02_selenium_ukol.e2e.js ve slozce test  - https://github.com/czechitas-da2020/01_automation/blob/02_selenium_ukol/test/02_selenium_ukol.e2e.js
+soubor utils.js  - https://github.com/czechitas-da2020/01_automation/blob/02_selenium_ukol/utils.js
+  2. pust npm test
+  3. Edituj promennou format
+  4. npm testVysledek:
+V konzoli pro kontrolu uvidis (a nejen to samozrejme)
+[0-1] Vytvoril jsem soubor s nazvem 2020-11-3_1-19-15screenshot-github.png
+[0-1] PASSED in chrome - C:\Users\vojta-cerveny\Documents\git\01_automation-master\test\02_selenium_ukol.e2e.js
+Vytvori se Ti soubor 2020-11-3_1-19-15screenshot-github.png se screenshotem Githubu.
+Odevzdej:
+kod funkce getCorrectFormat
+screenshot, ze se Ti vytvorily aspon 2 screenshoty - takze pust 2x npm test

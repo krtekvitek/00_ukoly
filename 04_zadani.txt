@@ -1,0 +1,30 @@
+Boj o :fox_face: pokračuje! 
+A je tady 4. pokračování, to znamená 4. úkol.Do repozitáře 03_mocha jsem nahrál nový soubor homework3.js s úkolem!
+https://github.com/czechitas-da2020/03_mocha/blob/master/test/homework/homework3.js  
+
+Ve složce 03_mocha dej git pull aby sis stáhla změny (ten soubor).
+
+Je to trošku tricky, ale věřím, že to zmáknete levou zadní. :slightly_smiling_face:
+Nezapomeňte na zásady, které jsme si řekli - každý testcase má TEST STEPS a OVĚŘENÍ.
+
+Odevzdejte prosím kód ze souboru homework3.js. Ne screenshot, ale kód, ať si to můžu vyzkoušet! Díky!
+:warning: Deadline je neděle 23:59 (edited) 
+
+ 
+
+ 
+
+/* ZADANI:
+  Doplň všechny testcasy
+  přidej kroky 
+  přidej assertion (expect)
+*/
+
+/*
+HINT: Secret password je schovane v HTML (nedaleko inputu pro secret heslo)
+  Je potreba ho najit a precist. Nevadi, ze neni zobrazene - data tam jsou.
+  Cislo se generuje kazdym nactenim stranky, nestaci si jej jednou precist a 
+    a pak ho pouzivat celou dobu. 
+  Hlasky maji dva stavy - 1) heslo je spravne, 2) heslo je spatne.
+  Good luck! 
+*/

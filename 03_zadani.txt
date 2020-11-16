@@ -1,0 +1,16 @@
+Postup:
+Vytvoř si nový soubor 03_elementy.homework.js ve složce test
+Nakopíruj do něho tento zdrojový kód
+https://github.com/czechitas-da2020/01_automation/blob/03_elementy/test/03_elements.homework.js
+Najdi a doplň selektory (lokátory) na řádcích 8 až 13.
+Zkus svůj kód pomocí npm test -- --spec homework  - spustí to jen Tvůj soubor s domácím úkolem.
+Odevzdej screenshot, že Ti test prochází + kód.
+Stačí tedy editovat řádky 8 až 13, a to jen selektory, tzn. browser.$('tadyPridejSelektor')
+:warning: DEADLINE: Neděle 8.11.2020 23:59
+
+Poznámky:
+Pokud test pustíš bez jakýchkoliv Tvých úprav, vyhodí Ti to chybu invalid selector: No selector specified  - jen to říká, že na řádku 8 není browser.$('') specifikovany selector.
+V souboru jsem už použil expect().toBeSomething()  - tohle Vám bude hlásit, jestli jste našly správný element nebo ne.
+Např. zde expect(paragraphsOfStory).toBeElementsArrayOfSize(16) je řečeno "Očekávám, že proměnná paragraphsOfStory  je pole o délce 16." 
+Pokud tak není, tak Vám to vypíše chybu (viz obrázek). Na řádek 9 jsem doplnil p, takže to našlo všechny paragraphy, kterých je na stránce 23. 
+Ovšem já chci paragraphy, které jsou v pohádce.
