@@ -1,4 +1,4 @@
-let utils = require('../utils')
+let utils = require('../../utils')
 
 describe('02_selenium github', () => {
     it('opens page and save screenshot with correct date', () => {
@@ -7,7 +7,7 @@ describe('02_selenium github', () => {
         
         // vyfot screenshot a pojmenuje se dateFormat + 'screenshot-github.png'
         let dateFormat = utils.getCorrectFormat()
-        let fileName = dateFormat + 'screenshot-github.png'
+        let fileName = dateFormat + '_screenshot-github.png'
         browser.saveScreenshot(fileName)
         console.log('Vytvoril jsem soubor s nazvem ' + fileName )
         //Vyzkousej si, jestli vse funguje, jak ma

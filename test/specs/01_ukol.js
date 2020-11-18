@@ -1,5 +1,3 @@
-const utils = require("../utils");
-
 describe('Cvičení 1 - práce s prohlížečem', () => {
     it('otevře prohlížec, maximalizuje, odscroluje k patičce, zadá email, nastaví fullscreen, minimalizuje, maximalizuje', () => {
         // Jdi na adresu https://www.czechitas.cz/cs
@@ -59,14 +57,14 @@ describe('Cvičení 2 - navigace', () => {
 
 
 describe('Cvičení 3 - screenshots', () => {
-    const utils = require('../utils')
+    const utils = require('../../utils')
     let date = new Date().valueOf();
     it('přejde na stánky a udělá screenshot', () => {
 
         browser.url('https://www.czechitas.cz/cs/');
         browser.pause(3000);
         utils.saveScreenshot(date, 'screen-main-page.png');
-        browser.saveScreenshot(date + 'screen-main-page.png');
+        //browser.saveScreenshot(date + 'screen-main-page.png');
             
         // - prejde na stranku portfolia v cs, pocka 5 sekund a ulozi screen obrazovky
         browser.url('https://www.czechitas.cz/cs/portfolio');
