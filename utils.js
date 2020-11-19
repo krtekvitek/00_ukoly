@@ -1,7 +1,9 @@
+// utils pro ukol 01
 const saveScreenshot = (date, name) => {
     browser.saveScreenshot(date + name)
 }
 
+//utils pro ukol 03
 const getCorrectFormat = () => {
     let date = new Date();
     let year = date.getFullYear(); //vrati 2020
@@ -19,6 +21,7 @@ const getCorrectFormat = () => {
     return format;
 }
 
+// utils pro ukol 04
 const helpMessage = () => {
     let pomocnaHlaska = browser.$('#passwordHelpBlock');
     return pomocnaHlaska;
