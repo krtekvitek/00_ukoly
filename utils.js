@@ -19,4 +19,10 @@ const getCorrectFormat = () => {
     return format;
 }
 
-module.exports = { saveScreenshot, getCorrectFormat }
+const helpMessage = () => {
+    let pomocnaHlaska = browser.$('#passwordHelpBlock');
+    return pomocnaHlaska;
+}
+    
+
+module.exports = { saveScreenshot, getCorrectFormat, helpMessage }

@@ -10,6 +10,20 @@ Nezapomeňte na zásady, které jsme si řekli - každý testcase má TEST STEPS
 Odevzdejte prosím kód ze souboru homework3.js. Ne screenshot, ale kód, ať si to můžu vyzkoušet! Díky!
 :warning: Deadline je neděle 23:59 (edited) 
 
+/* ZADANI:
+  Doplň všechny testcasy
+  přidej kroky 
+  přidej assertion (expect)
+*/
+
+/*
+HINT: Secret password je schovane v HTML (nedaleko inputu pro secret heslo)
+  Je potreba ho najit a precist. Nevadi, ze neni zobrazene - data tam jsou.
+  Cislo se generuje kazdym nactenim stranky, nestaci si jej jednou precist a 
+    a pak ho pouzivat celou dobu. 
+  Hlasky maji dva stavy - 1) heslo je spravne, 2) heslo je spatne.
+  Good luck! 
+*/
  
 
  
