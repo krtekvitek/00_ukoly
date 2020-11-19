@@ -1,5 +1,5 @@
 const utils = require('../../utils')
-describe('Secret number', () => {
+describe('04_Secret number', () => {
   
 
     beforeEach(() => { //muzes zmenit na beforeEach, pokud je potreba

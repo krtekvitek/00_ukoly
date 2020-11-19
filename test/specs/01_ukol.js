@@ -1,4 +1,4 @@
-describe('Cvičení 1 - práce s prohlížečem', () => {
+describe('01 - práce s prohlížečem', () => {
     it('otevře prohlížec, maximalizuje, odscroluje k patičce, zadá email, nastaví fullscreen, minimalizuje, maximalizuje', () => {
         // Jdi na adresu https://www.czechitas.cz/cs
         browser.url('https://www.czechitas.cz/cs/');
