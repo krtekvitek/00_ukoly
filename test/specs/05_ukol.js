@@ -1,4 +1,3 @@
-const { saveScreenshot } = require("../../utils");
 
 describe('05_Fox', () => {
     // TEST-CASE
