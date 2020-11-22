@@ -9,7 +9,7 @@ describe('04_Secret number', () => {
     it('confirmation appears after validating correct secret number', () => {
       // potvrzení se objeví po ověření správného čísla
       let pomocnaHlaska = utils.helpMessage();
-      let password = browser.$('#secretPassword').getValue('[value = ""]');
+      let password = browser.$('#secretPassword').getValue();
       browser.$('#secretNumberInput').setValue(password);
       browser.pause(2000);
       browser.$('#checkSecretNumber').click();
