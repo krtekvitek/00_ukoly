@@ -5,3 +5,9 @@
 [1119/232837.208:ERROR:process_reader_win.cc(151)] SuspendThread: Pøístup byl odepøen. (0x5)
 [1119/232837.208:ERROR:process_reader_win.cc(123)] NtOpenThread: {Pøístup byl odepøen} Proces požadoval pøístup k objektu, ale nebyla mu udìlena odpovídající pøístupová práva. (0xc0000022)
 [1119/232837.208:ERROR:exception_snapshot_win.cc(99)] thread ID 2032 not found in process
+[1122/204858.654:ERROR:process_reader_win.cc(151)] SuspendThread: Pøístup byl odepøen. (0x5)
+[1122/204858.656:ERROR:process_reader_win.cc(151)] SuspendThread: Pøístup byl odepøen. (0x5)
+[1122/204858.656:ERROR:process_reader_win.cc(123)] NtOpenThread: {Pøístup byl odepøen} Proces požadoval pøístup k objektu, ale nebyla mu udìlena odpovídající pøístupová práva. (0xc0000022)
+[1122/204858.656:ERROR:exception_snapshot_win.cc(99)] thread ID 9784 not found in process
+[1122/204858.677:ERROR:process_reader_win.cc(123)] NtOpenThread: {Pøístup byl odepøen} Proces požadoval pøístup k objektu, ale nebyla mu udìlena odpovídající pøístupová práva. (0xc0000022)
+[1122/204858.677:ERROR:exception_snapshot_win.cc(99)] thread ID 11196 not found in process

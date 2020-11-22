@@ -5,7 +5,7 @@ describe('05_Fox', () => {
         let vysledek = $('#somethingForYou')
         browser.url('https://automation.cervik.repl.co/findfox.html');
         const fox = $('button=🦊');
-        fox.waitForDisplayed({timeout: 30000});
+        fox.waitForDisplayed({timeout: 30000, interval: 30});
         fox.click();
         browser.pause(3000);
         browser.saveScreenshot('Liška.png');
